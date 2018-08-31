@@ -24,14 +24,6 @@ small a {
   color: black;
 }
 
-/*.content {
-  background: #ffffff;
-  padding: 10px 20px;
-  border: 1px solid #dddddd;
-  border-radius: 3px;
-  margin-bottom: 20px;
-  width: 50%;
-}*/
 
 /*navigation styles*/
 ul {
@@ -72,7 +64,6 @@ li a.active {
 
 /*form styles*/
 
-/*form {border: 3px solid #f1f1f1;}*/
 form {
 	padding: 20px;
 }
@@ -187,8 +178,3 @@ a {
    color: black;
    font-size: 14px;
  }
-
-/*span.psw {
-    float: right;
-    padding-top: 16px;
-}*/
