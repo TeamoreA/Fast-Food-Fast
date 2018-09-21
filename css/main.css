@@ -26,6 +26,9 @@ small a {
 
 
 /*navigation styles*/
+/*.navbar {
+  position: fixed;
+}*/
 ul {
 	font-size: 18px;
     list-style-type: none;
@@ -171,10 +174,57 @@ a {
   font-size: 20px;
 }
 
-
+footer {
+  background-color: #f3f3f3;
+  opacity: 0.8;
+  width: 96%;
+  margin: auto;
+  border-radius: 5px;
+}
  footer p {
    padding: 4px;
    text-align: center;
    color: black;
    font-size: 14px;
+
  }
+
+ /* Flaot Links to Right */
+ .float-links-right {
+  float: right;
+ }
+
+/*food cards*/
+.main-container{
+        width: 80%;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        /*text-align: center;*/
+      }
+
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 10px;
+        transition: 0.3s;
+        width: 20%;
+        background-color: gray;
+        padding: 5px;
+        text-align: center;
+        display: inline-block;
+        margin: 20px;
+      }
+
+      .card:hover {
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+      }
+
+      .myContainer {
+          padding: 2px 16px;
+          
+      }
+       .image {
+        border-radius: 40px;
+       }
