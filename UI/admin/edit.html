@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Edit Food Item</title>
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/forms.css">
+	<style type="text/css">
+		body {
+		    background-image: url(../images/1.jpg);
+		    background-size: cover;
+		    color: white;
+		    background-repeat: no-repeat;
+		    background-position: center;
+		    background-attachment: fixed;
+		    opacity: 0.95;
+		  }
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+		  	<li><a href="../user/index.html">Home</a></li>
+		  	<li><a href="../user/my_orders.html">Orders</a></li>
+			<li><a class="active" href="index.html">Food Items</a></li>
+			<li><a href="orders.html">All Orders</a></li>
+			<div class="float-links-left">
+				<!-- <li><a href="../login.html">Login</a></li>
+		  		<li><a href="../register.html">Register</a></li> -->
+				<li><a href="#">Logout</a></li>
+			</div>
+		</ul>
+	</nav>
+	
+	<div class="content-container">
+
+	    <!-- end of .nav -->
+			<h2>Edit Food Item</h2>
+			<hr>
+			<form action="#" method="POST">
+
+
+			  <div class="form-container">
+			  	<div>
+			  		<label for="order"><b>Order</b><br></label>
+			    	<input class="form-control" type="email" placeholder="Order Name..." name="order" required>
+			  	</div>
+
+				<div>
+					<label for="price"><b>Price</b><br></label>
+					<input class="form-control" type="text" placeholder="Order Price in Dollars..." name="price" required>
+				</div>
+
+				<div>
+					<label for="dscription"><b>Description</b><br></label>
+					<textarea class="form-control" rows="5" placeholder="Order Description..." name="description" required></textarea>
+				</div>
+
+			     <div>
+			     	<button class="button button-primary" type="submit">Update</button>
+			     </div>
+
+			  </div>
+			</form>
+	</div>
+	<footer>
+		<p>Developed by Developer-X copyright 2018.</p>
+	</footer>
+</body>
+</html>
